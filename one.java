@@ -9,9 +9,13 @@ class One
 		{
 			System.out.println("Negative");
 		}
-		else
+		else if(n>0)
 		{
 			System.out.println("Positive");
+		}
+		else
+		{
+			System.out.println("Zero");
 		}
 	}
 }
